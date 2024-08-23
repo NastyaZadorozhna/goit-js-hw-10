@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page 3</title>
+  </head>
+  <body>
+    <section class="section-wi">
+      <a href="./index.html">Go to home</a>
+      <form class="form">
+        <label class="bar-input">
+          Delay (ms)
+          <input type="number" name="delay" required />
+        </label>
+      
+        <fieldset class="bar-field">
+          <legend>State</legend>
+          <label>
+            <input type="radio" name="state" value="fulfilled" required />
+            Fulfilled
+          </label>
+          <label>
+            <input type="radio" name="state" value="rejected" required />
+            Rejected
+          </label>
+        </fieldset>
+      
+        <button class="btn-bar" type="submit">Create notification</button>
+      </form>
+      
+    </section>
+    <script type="module" src="./js/2-snackbar.js"></script>
+  </body>
+</html>
